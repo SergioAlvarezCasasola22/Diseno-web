@@ -279,3 +279,117 @@ main {
   padding-top: var(--espacio-3);
   padding-bottom: var(--espacio-3);
 }
+
+/* Escenarios */
+.escenarios {
+  padding: var(--espacio-6) 0;
+}
+
+.bloque {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--espacio-6);
+  margin-bottom: var(--espacio-5);
+}
+
+.bloque--inverso .bloque__visual {
+  order: -1;
+}
+
+.bloque__texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--espacio-3);
+}
+
+.bloque__titulo {
+  font-size: var(--texto-xl);
+}
+
+.bloque__texto p {
+  color: var(--texto-suave);
+}
+
+.bloque__visual {
+  height: var(--alto-bloque-visual);
+  border-radius: var(--radio-m);
+}
+
+.bloque__visual--playa {
+  background-color: var(--color-ola);
+}
+
+.bloque__visual--pinar {
+  background-color: var(--color-sol);
+}
+
+/* Entradas */
+.entradas {
+  padding: var(--espacio-6) 0;
+}
+
+.planes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--espacio-4);
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  padding: var(--espacio-4);
+  padding-top: var(--espacio-6);
+  background-color: var(--fondo-claro);
+  border-radius: var(--radio-m);
+  box-shadow: var(--sombra-suave);
+}
+
+.plan__nombre {
+  font-size: var(--texto-l);
+}
+
+.plan__precio {
+  font-family: var(--fuente-titulo);
+  font-size: var(--texto-2xl);
+  font-weight: var(--peso-negro);
+  margin-bottom: var(--espacio-3);
+}
+
+.plan__lista {
+  flex: 1;
+  list-style: disc;
+  margin-left: var(--espacio-4);
+  margin-bottom: var(--espacio-4);
+  color: var(--texto-suave);
+}
+
+.plan__boton {
+  text-align: center;
+}
+
+.plan--destacado {
+  padding-top: var(--espacio-3);
+  background-color: var(--fondo-oscuro);
+  color: var(--texto-sobre-oscuro);
+}
+
+.plan--destacado .plan__precio {
+  color: var(--color-sol);
+}
+
+.plan--destacado .plan__lista {
+  color: var(--texto-hero);
+}
+
+.plan__etiqueta {
+  align-self: flex-start;
+  margin-bottom: var(--espacio-1);
+  padding: var(--espacio-1) var(--espacio-3);
+  background-color: var(--color-sol);
+  color: var(--texto-principal);
+  font-size: var(--texto-xs);
+  font-weight: var(--peso-fuerte);
+  border-radius: var(--radio-pildora);
+}
