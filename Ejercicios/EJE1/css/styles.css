@@ -1,0 +1,31 @@
+body{
+    background-color: #c1fec3;
+}
+h1, h2, h3{
+    color: blue;
+}
+.content p{
+    font-size: 18px;
+}
+.important{
+    color: red;
+}
+li:first-child{
+    color: orange;
+}
+#main {
+    border: 2px solid black;
+}
+li:nth-child(odd) {
+  background-color: lightgray;
+}
+a:hover{
+    color: purple
+}
+a[href^="https"] {
+  color: green;
+}
+
+a[href*="external"] {
+  background-color: yellow;
+}

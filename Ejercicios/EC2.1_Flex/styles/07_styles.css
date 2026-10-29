@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.fila {
+    display: flex;
+    gap: 2px;
+}
+
+.caja {
+    flex: 1;
+    background-color: #888;
+    color: white;
+    padding: 10px 15px;
+}

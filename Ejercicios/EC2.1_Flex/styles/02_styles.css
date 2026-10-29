@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #008080;
+    padding: 15px 30px;
+}
+.izquierda {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.izquierda a {
+    color: white;
+    text-decoration: none;
+}
+.derecha {
+    display: flex;
+    gap: 10px;
+}
+
+.derecha input {
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+}
+
+.derecha button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+}
