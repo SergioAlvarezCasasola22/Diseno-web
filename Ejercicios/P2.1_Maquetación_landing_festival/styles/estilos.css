@@ -1,5 +1,5 @@
 
-/* ---------- Variables propias (nombres según su USO) ---------- */
+/*Variables importadas */
 :root {
   --fondo-oscuro: var(--color-tinta);
   --fondo-claro: var(--color-superficie);
@@ -393,3 +393,4 @@ main {
   font-weight: var(--peso-fuerte);
   border-radius: var(--radio-pildora);
 }
+
